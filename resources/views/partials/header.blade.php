@@ -1,5 +1,5 @@
 <header >
-    <nav id="navBar" class="navbar bg-body-tertiary">
+    <nav id="navBar" class="navbar bg-light">
         <div class="container w-75">
             <div>
                 <img class="logo" src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Laravel Logo">
@@ -15,6 +15,9 @@
         
         </div>
     </nav>
+    <div class="jumbotron">
+        <img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}" alt="Laravel Logo">
+    </div>
 
 
     

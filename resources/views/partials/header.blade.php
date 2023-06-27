@@ -1,6 +1,6 @@
 <header >
     <nav id="navBar" class="navbar bg-light">
-        <div class="container w-75">
+        <div class="container ">
             <div>
                 <img class="logo" src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Laravel Logo">
             </div>

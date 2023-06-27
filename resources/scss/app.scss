@@ -36,13 +36,36 @@ body {
     }
 }
 
-header,
-footer {
-    width: 100%;
-    background: #EEE;
-    color: black;
+//***** FOOTER ****//
+
+footer{
+
+
+    h3{
+        padding-bottom: 1rem;
+    }
+    
+    ul{
+        list-style-type: none;
+        padding: 0;
+    }
+
+    img{
+        height: 100%;
+        object-fit: none;
+        width: 100%;
+    }
+    
 }
 
-header img.logo {
-    height: 2rem;
+.footerLogo{
+    width: 50%;
+}
+
+#footerLinks{
+    background-image: url(../img/footer-bg.jpg);
+}
+
+.linkBox{
+    height: 400px;
 }

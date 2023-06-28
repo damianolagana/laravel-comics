@@ -2,13 +2,22 @@
 
 @section('content')
 <div class="container my-3">
-    <h1>Welcome Page</h1>
+    <h1>COMICS</h1>
     <div class="row g-4">
-        <div class="col">
+        @foreach($comics as $comic)
+        <div class="col-2 comiCard">
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, delectus ad esse illum omnis earum eligendi sint a minus quasi, inventore nulla autem. Maxime voluptatem eligendi veniam voluptates. Soluta, sunt!</p>
+                <div>
+                    <h4>{{$comic["title"]}}</h4>
+
+                </div>
+                <div>
+                    <img src="{{$comic["thumb"]}}" alt="">
+                    
+                </div>
             </div>
         </div>
+        @endforeach
     </div>
 
 </div>

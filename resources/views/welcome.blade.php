@@ -19,6 +19,9 @@
         </div>
         @endforeach
     </div>
+    <div>
+        ciao
+    </div>
 
 </div>
 @endsection
